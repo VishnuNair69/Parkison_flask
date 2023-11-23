@@ -1,0 +1,39 @@
+/* styles.css */
+
+body {
+    padding-top: 56px; /* Adjust based on your navbar height */
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 15px;
+}
+
+.form-inline {
+    margin-left: auto;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 100%; /* Maintain 1:1 aspect ratio */
+}
+
+.image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

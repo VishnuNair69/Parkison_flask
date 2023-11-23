@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="{{ url_for('static', filename='node_modules/bootstrap/dist/css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='node_modules/bootstrap-icons/font/bootstrap-icons.css') }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>PARKISON’S NOW</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<!-- section 1 -->
+<!-- ... (rest of your HTML content) ... -->
+
+<nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: rgba(0,0,0,0.5);">
+    <a class="navbar-brand" href="#">PARKISON’S NOW</a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+                <a class="nav-link" href="#about">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"  href="#services">SERVICES</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#blog">BLOG</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">PATENTS</a>
+            </li>
+        </ul>
+
+        
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search Blogs" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+<!-- Section 2 -->
+
+<section class="container mt-5" id="about">
+    <div class="row">
+        
+        <div class="col-md-6">
+            <div class="image-container">
+                <img src="static/Parkison.webp" alt="Parkinson's Image" class="img-fluid">
+            </div>
+        </div>
+
+        
+        <div class="col-md-6 mt-7 mb-7 text-center d-flex flex-column justify-content-center">
+            <h2 class="mt-4 mb-4">WHAT’S PARKINSON?</h2>
+            <p class="mt-4">PARKINSON'S DISEASE IS A PROGRESSIVE DISORDER THAT AFFECTS THE NERVOUS SYSTEM AND THE PARTS OF THE BODY CONTROLLED BY THE NERVES.</p>
+            <div class="mt-4 mb-4">
+                <a href="https://www.bing.com/ck/a?!&&p=3662850594568a6bJmltdHM9MTcwMDQzODQwMCZpZ3VpZD0wZWU4MWUxMy02ODQzLTZiNDktMDk3OS0wZjM3NjllZTZhNGImaW5zaWQ9NTIzNw&ptn=3&ver=2&hsh=3&fclid=0ee81e13-6843-6b49-0979-0f3769ee6a4b&psq=WHAT%e2%80%99S+PARKINSON%3f&u=a1aHR0cHM6Ly93d3cubWF5b2NsaW5pYy5vcmcvZGlzZWFzZXMtY29uZGl0aW9ucy9wYXJraW5zb25zLWRpc2Vhc2Uvc3ltcHRvbXMtY2F1c2VzL3N5Yy0yMDM3NjA1NQ&ntb=1" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- section 3 -->
+
+<section class="container mt-8 text-center d-flex flex-column justify-content-center " id="services">
+    <div class="row text-center ">
+        
+        <div class="col-md-6 mt-4 ">
+            <h2 >HOW PARKINSON’S AFFECT</h2>
+            
+            <div class="image-container">
+                <img src="static/Parkinsons.png" alt="Second Image" class="img-fluid">
+            </div>
+        </div>
+
+        
+        <div class="col-md-6 mt-7 text-center d-flex flex-column justify-content-center">
+            <p>WRITING EFFECTIVELY IS AN ART. START BY USING SIMPLE, EVERYDAY WORDS PEOPLE CAN EASILY UNDERSTAND. BE CLEAR AND DIRECT TO THE POINT. KEEP YOUR THOUGHTS FLOWING LOGICALLY, AND AIM FOR BREVITY. YOUR IDEAS HAVE A PURPOSE, SO CHOOSE WORDS THAT ACCURATELY EXPRESS THEM.</p>
+            <div class="mt-4 mb-4">
+                <a href="https://www.mayoclinic.org/diseases-conditions/parkinsons-disease/symptoms-causes/syc-20376055" class="btn btn-primary">Learn More</a>
+                <a href="https://colab.research.google.com/drive/1LxEZm-RYm_3t9wIJWY-PXvMkvjroOMpk" class="btn btn-primary ml-2">View Work</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- section 4 -->
+
+<section class="container mt-5" id="blog">
+    <div class="row">
+        
+        <div class="col-md-12 text-center mb-4">
+            <h2>FEATURED BLOG POSTS</h2>
+        </div>
+    </div>
+    <div class="card-deck">
+        
+        <div class="col-md-4">
+            <div class="card">
+                <img src="static/a1.webp" class="card-img-top" alt="Blog Post 1 Image">
+                <div class="card-body">
+                    <h5 class="card-title">ESSENTIAL CAREGIVER RESOURCES</h5>
+                    <p class="card-text">THERE IS JUST ENOUGH SPACE HERE FOR SEVERAL LINES OF TEXT. USE IT WELL.</p>
+                    <a href="https://www.parkinson.org/blog/care/resources" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="static/a2.webp" class="card-img-top" alt="Blog Post 2 Image">
+                <div class="card-body">
+                    <h5 class="card-title">SCIENCE NEWS</h5>
+                    <p class="card-text">NEW STUDY FINDS BLOOD TEST CAN HELP TRACK PARKINSON’S SYMPTOMS AND PROGRESSION</p>
+                    <a href="https://www.parkinson.org/blog/science-news/blood-test" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="static/a3.webp" class="card-img-top" alt="Blog Post 3 Image">
+                <div class="card-body">
+                    <h5 class="card-title">ADVANCING RESEARCH</h5>
+                    <p class="card-text">NEURO TALK: ACCELERATING DRUG DISCOVERY THROUGH THE PARKINSON’S VIRTUAL BIOTECH</p>
+                    <a href="https://www.parkinson.org/blog/research/accelerating-drug-discovery" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- section 5 -->
+
+
+<section id="faq" class="container mt-5 mb-5" style="background-color: rgba(255, 255, 255, 0.8);">
+    <div class="row">
+        <!-- Title in the middle -->
+        <div class="col-md-12 text-center mb-4">
+            <h2 class="text-center">FREQUENTLY ASKED QUESTIONS</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <!-- Accordion -->
+            <div id="accordion">
+                <!-- FAQ Item 1 -->
+                <div class="card">
+                    <div class="card-header text-center" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What are the early signs of Parkinson’s? <span class="bi bi-arrow-down"></span>
+                        </h5>
+                    </div>
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            Tremor: A slight shaking or tremor in your finger, thumb, hand or chin.
+Small Handwriting: A change in handwriting, such as smaller letter sizes and crowding words together — this is called micrographia.
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="card">
+                    <div class="card-header text-center" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Is vertigo a sign or symptoms of Parkinson’s? <span class="bi bi-arrow-down"></span>
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            Yes. Vertigo and dizziness are commonly reported symptoms in people with Parkinson’s. Most experts agree that dizziness and vertigo can be broadly defined as the sensation of spinning or whirling, and the sensation can be associated with balance problems.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="card">
+                    <div class="card-header text-center" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Is Parkinson’s genetic? <span class="bi bi-arrow-down"></span>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                            We do not know exactly what causes Parkinson's, but scientists believe that a combination of genetic and environmental factors are the cause. Genetics cause about 10% to 15% of all Parkinson's.
+                        </div>
+                    </div>
+                </div>
+
+                
+
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<script>
+    // Your JavaScript code here
+    $(document).ready(function () {
+        
+        $("#searchForm").submit(function (event) {
+            event.preventDefault();
+            var searchTerm = $("#searchInput").val().toLowerCase();
+
+            
+            $(".card").hide();
+
+            
+            $(".card:contains('" + searchTerm + "')").show();
+        });
+    });
+
+    
+    $.expr[":"].contains = $.expr.createPseudo(function (arg) {
+        return function (elem) {
+            return $(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
+        };
+    });
+</script>
+
+</body>
+</html>
